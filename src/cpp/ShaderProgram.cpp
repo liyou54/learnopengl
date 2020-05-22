@@ -4,7 +4,7 @@ ShaderProgram::ShaderProgram(const char * vertexShaderPath,const char * fragment
 {
     vertexFilePath = vertexShaderPath;
     fragmentFilePath = fragmentShaderPath;
-    programID = CreatProgram();
+    programID =CreatProgram();
 
 }
 
@@ -30,6 +30,13 @@ int ShaderProgram::CreatProgram(){
     return PID;
 }
 
+void ShaderProgram::ReloadShader(){
+    int reloadProgramID = CreatProgram();
+    if(reloadProgramID){
+        glDeleteProgram(programID);
+        programID = reloadProgramID;
+    }
+}
 ShaderProgram::~ShaderProgram()
 {
 }
@@ -82,12 +89,4 @@ void ShaderProgram::CleanUp(){
     glDetachShader(programID,vertexShaderID);
     glDetachShader(programID,fragmentShaderID);
     glDeleteProgram(programID);
-}
-
-void ShaderProgram::ReloadShader(){
-    int reloadProgramID = CreatProgram();
-    if(reloadProgramID){
-        glDeleteProgram(programID);
-        programID = reloadProgramID;
-    }
 }

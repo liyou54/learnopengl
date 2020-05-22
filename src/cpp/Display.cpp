@@ -58,7 +58,7 @@ void Display::frameBufferSizeCallback(GLFWwindow* window,int width,int height){
 }
 
 EMDisplayState Display::Update(){
-    processEvent();
+
     glfwPollEvents();
     glfwSwapBuffers(mWindow);
     return processEvent();
@@ -75,11 +75,10 @@ void Display::SetDisplayMode(DisplayMode mode){
 }
 EMDisplayState Display::processEvent (){
     if(glfwGetKey(mWindow,GLFW_KEY_ESCAPE)==GLFW_PRESS){
-        glfwSetWindowShouldClose(mWindow,true);
-        return EMDisplayState::STATE_SUCESS;
+        glfwSetWindowShouldClose(mWindow, true);
+        return EMDisplayState::STATE_SUCCESS;
     }
-    else if (glfwGetKey(mWindow, GLFW_KEY_R)==GLFW_PRESS)
-    {
+    else if(glfwGetKey(mWindow,GLFW_KEY_R)==GLFW_PRESS){
         return EMDisplayState::STATE_RELOAD;
     }
 }

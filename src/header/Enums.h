@@ -2,7 +2,7 @@
 
 enum EMDisplayState
 {
-    STATE_SUCESS = 0,
-    STATE_RELOAD,
 
+    STATE_SUCCESS = 0,
+    STATE_RELOAD ,
 };

@@ -18,6 +18,7 @@ int main()
     unsigned int indexData[]{
         0,1,3,
         1,2,3
+
     };
 
     EMDisplayState mDisplayState;
@@ -32,7 +33,7 @@ int main()
     while(!mDisplayMgr.IsRequestClosed()){
         mRender.Prepare();
 
-        mShader.Start();
+        mShader.Start(); 
         mRender.OnRender(mModel);
         mShader.Stop ();
 

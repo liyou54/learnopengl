@@ -1,8 +1,7 @@
 #pragma once
-#include "Enums.h"
 #include "glad/glad.h"
 #include "GLFW/glfw3.h"
-
+#include "Enums.h" 
 #include <iostream>
 class DisplayMode{
     public:

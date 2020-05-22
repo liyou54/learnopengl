@@ -7,9 +7,8 @@ class DisplayManager{
     public :
         DisplayManager();
         void CreateDisplay();
-        EMDisplayState UpdateDisplay(); 
+        EMDisplayState UpdateDisplay();
         void CloseDisplay();
         bool IsRequestClosed();
-
 
 };
