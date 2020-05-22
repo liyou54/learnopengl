@@ -57,10 +57,11 @@ void Display::frameBufferSizeCallback(GLFWwindow* window,int width,int height){
     glViewport(0,0,width,height);
 }
 
-void Display::Update(){
+EMDisplayState Display::Update(){
     processEvent();
     glfwPollEvents();
     glfwSwapBuffers(mWindow);
+    return processEvent();
 }
 
 void Display::Destroy(){
@@ -72,9 +73,14 @@ void Display::Destroy(){
 void Display::SetDisplayMode(DisplayMode mode){
     mDisplayMode = mode;
 }
-void Display::processEvent (){
+EMDisplayState Display::processEvent (){
     if(glfwGetKey(mWindow,GLFW_KEY_ESCAPE)==GLFW_PRESS){
         glfwSetWindowShouldClose(mWindow,true);
+        return EMDisplayState::STATE_SUCESS;
+    }
+    else if (glfwGetKey(mWindow, GLFW_KEY_R)==GLFW_PRESS)
+    {
+        return EMDisplayState::STATE_RELOAD;
     }
 }
 

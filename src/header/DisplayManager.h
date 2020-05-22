@@ -1,13 +1,15 @@
 #pragma once
-#include "../header/Display.h"
+#include "Display.h"
+#include "Enums.h"
 class DisplayManager{
     private:
         Display mDisplay;
     public :
         DisplayManager();
         void CreateDisplay();
-        void UpdateDisplay();
+        EMDisplayState UpdateDisplay(); 
         void CloseDisplay();
         bool IsRequestClosed();
+
 
 };

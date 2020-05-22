@@ -1,4 +1,5 @@
 #pragma once
+#include "Enums.h"
 #include "glad/glad.h"
 #include "GLFW/glfw3.h"
 
@@ -32,11 +33,11 @@ class Display{
         void SetTitle(const char *title);
         void SetDisplayMode(DisplayMode mode);
         void Create(ContextAttribute attr);
-        void Update();
+        EMDisplayState Update();
         void Destroy();
         static void frameBufferSizeCallback(GLFWwindow* window,int width,int height);
         bool IsRequestClosed();
     
     private:
-        void processEvent();
+        EMDisplayState processEvent();
 };

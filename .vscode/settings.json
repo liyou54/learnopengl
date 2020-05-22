@@ -6,6 +6,7 @@
         "xstring": "cpp",
         "xutility": "cpp",
         "string": "cpp",
-        "fstream": "cpp"
+        "fstream": "cpp",
+        "*.tcc": "cpp"
     }
 }

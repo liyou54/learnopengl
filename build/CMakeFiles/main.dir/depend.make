@@ -6,6 +6,7 @@ CMakeFiles/main.dir/src/cpp/Display.cpp.obj: ../include/KHR/khrplatform.h
 CMakeFiles/main.dir/src/cpp/Display.cpp.obj: ../include/glad/glad.h
 CMakeFiles/main.dir/src/cpp/Display.cpp.obj: ../src/cpp/Display.cpp
 CMakeFiles/main.dir/src/cpp/Display.cpp.obj: ../src/header/Display.h
+CMakeFiles/main.dir/src/cpp/Display.cpp.obj: ../src/header/Enums.h
 
 CMakeFiles/main.dir/src/cpp/DisplayManager.cpp.obj: ../include/GLFW/glfw3.h
 CMakeFiles/main.dir/src/cpp/DisplayManager.cpp.obj: ../include/KHR/khrplatform.h
@@ -13,6 +14,7 @@ CMakeFiles/main.dir/src/cpp/DisplayManager.cpp.obj: ../include/glad/glad.h
 CMakeFiles/main.dir/src/cpp/DisplayManager.cpp.obj: ../src/cpp/DisplayManager.cpp
 CMakeFiles/main.dir/src/cpp/DisplayManager.cpp.obj: ../src/header/Display.h
 CMakeFiles/main.dir/src/cpp/DisplayManager.cpp.obj: ../src/header/DisplayManager.h
+CMakeFiles/main.dir/src/cpp/DisplayManager.cpp.obj: ../src/header/Enums.h
 
 CMakeFiles/main.dir/src/cpp/Loader.cpp.obj: ../include/KHR/khrplatform.h
 CMakeFiles/main.dir/src/cpp/Loader.cpp.obj: ../include/glad/glad.h
@@ -45,6 +47,7 @@ CMakeFiles/main.dir/src/main.cpp.obj: ../include/KHR/khrplatform.h
 CMakeFiles/main.dir/src/main.cpp.obj: ../include/glad/glad.h
 CMakeFiles/main.dir/src/main.cpp.obj: ../src/header/Display.h
 CMakeFiles/main.dir/src/main.cpp.obj: ../src/header/DisplayManager.h
+CMakeFiles/main.dir/src/main.cpp.obj: ../src/header/Enums.h
 CMakeFiles/main.dir/src/main.cpp.obj: ../src/header/Loader.h
 CMakeFiles/main.dir/src/main.cpp.obj: ../src/header/RawModel.h
 CMakeFiles/main.dir/src/main.cpp.obj: ../src/header/Render.h

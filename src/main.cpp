@@ -4,6 +4,7 @@
 #include "./header/RawModel.h"
 #include "./header/Render.h"
 #include "./header/StaticShader.h"
+#include "./header/Enums.h"
 #include <iostream>
 
 int main()
@@ -18,6 +19,9 @@ int main()
         0,1,3,
         1,2,3
     };
+
+    EMDisplayState mDisplayState;
+
     DisplayManager mDisplayMgr;
     mDisplayMgr.CreateDisplay();
 
@@ -32,7 +36,10 @@ int main()
         mRender.OnRender(mModel);
         mShader.Stop ();
 
-        mDisplayMgr.UpdateDisplay();
+        mDisplayState = mDisplayMgr.UpdateDisplay();
+        if(mDisplayState==EMDisplayState::STATE_RELOAD){
+            mShader.ReloadShader();
+        }
     }
     mShader.CleanUp();
     mLoader.CleanUp();

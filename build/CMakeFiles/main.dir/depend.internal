@@ -7,6 +7,7 @@ CMakeFiles/main.dir/src/cpp/Display.cpp.obj
  ../include/glad/glad.h
  D:/job/opengl/learnopengl/src/cpp/Display.cpp
  D:/job/opengl/learnopengl/src/header/Display.h
+ D:/job/opengl/learnopengl/src/header/Enums.h
 CMakeFiles/main.dir/src/cpp/DisplayManager.cpp.obj
  ../include/GLFW/glfw3.h
  ../include/KHR/khrplatform.h
@@ -14,6 +15,7 @@ CMakeFiles/main.dir/src/cpp/DisplayManager.cpp.obj
  D:/job/opengl/learnopengl/src/cpp/DisplayManager.cpp
  D:/job/opengl/learnopengl/src/header/Display.h
  D:/job/opengl/learnopengl/src/header/DisplayManager.h
+ D:/job/opengl/learnopengl/src/header/Enums.h
 CMakeFiles/main.dir/src/cpp/Loader.cpp.obj
  ../include/KHR/khrplatform.h
  ../include/glad/glad.h
@@ -46,6 +48,7 @@ CMakeFiles/main.dir/src/main.cpp.obj
  ../include/glad/glad.h
  D:/job/opengl/learnopengl/src/header/Display.h
  D:/job/opengl/learnopengl/src/header/DisplayManager.h
+ D:/job/opengl/learnopengl/src/header/Enums.h
  D:/job/opengl/learnopengl/src/header/Loader.h
  D:/job/opengl/learnopengl/src/header/RawModel.h
  D:/job/opengl/learnopengl/src/header/Render.h

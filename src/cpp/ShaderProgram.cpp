@@ -2,23 +2,32 @@
 
 ShaderProgram::ShaderProgram(const char * vertexShaderPath,const char * fragmentShaderPath)
 {
-    vertexShaderID = LoadShader(vertexShaderPath,GL_VERTEX_SHADER);
-    fragmentShaderID = LoadShader(fragmentShaderPath,GL_FRAGMENT_SHADER);
-    programID = glCreateProgram();
-    glAttachShader(programID, vertexShaderID);
-    glAttachShader(programID, fragmentShaderID);
-    glLinkProgram(programID);
+    vertexFilePath = vertexShaderPath;
+    fragmentFilePath = fragmentShaderPath;
+    programID = CreatProgram();
+
+}
+
+int ShaderProgram::CreatProgram(){
+    vertexShaderID = LoadShader(vertexFilePath,GL_VERTEX_SHADER);
+    fragmentShaderID = LoadShader(fragmentFilePath,GL_FRAGMENT_SHADER);
+    int PID = glCreateProgram();
+    glAttachShader(PID, vertexShaderID);
+    glAttachShader(PID, fragmentShaderID);
+    glLinkProgram(PID);
 
     int success ;
-    glGetProgramiv(programID,GL_LINK_STATUS,&success);
+    glGetProgramiv(PID,GL_LINK_STATUS,&success);
     if(!success){
         char infoLog[512];
-        glGetProgramInfoLog(programID,512,nullptr,infoLog);
+        glGetProgramInfoLog(PID,512,nullptr,infoLog);
         std::cout << "Link Program Error : "<<infoLog<<std::endl;
+        return 0;
     }
 
     glDeleteShader(vertexShaderID);
     glDeleteShader(fragmentShaderID);
+    return PID;
 }
 
 ShaderProgram::~ShaderProgram()
@@ -73,4 +82,12 @@ void ShaderProgram::CleanUp(){
     glDetachShader(programID,vertexShaderID);
     glDetachShader(programID,fragmentShaderID);
     glDeleteProgram(programID);
+}
+
+void ShaderProgram::ReloadShader(){
+    int reloadProgramID = CreatProgram();
+    if(reloadProgramID){
+        glDeleteProgram(programID);
+        programID = reloadProgramID;
+    }
 }

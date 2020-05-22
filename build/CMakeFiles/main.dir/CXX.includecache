@@ -62,35 +62,13 @@ stdint.h
 KHR/khrplatform.h
 -
 
-D:/job/opengl/learnopengl/src/cpp/Display.cpp
-../header/Display.h
-D:/job/opengl/learnopengl/src/header/Display.h
-
-D:/job/opengl/learnopengl/src/cpp/DisplayManager.cpp
-../header/DisplayManager.h
-D:/job/opengl/learnopengl/src/header/DisplayManager.h
-
-D:/job/opengl/learnopengl/src/cpp/Loader.cpp
-../header/Loader.h
-D:/job/opengl/learnopengl/src/header/Loader.h
-
-D:/job/opengl/learnopengl/src/cpp/RawModel.cpp
-../header/RawModel.h
-D:/job/opengl/learnopengl/src/header/RawModel.h
-
-D:/job/opengl/learnopengl/src/cpp/Render.cpp
-../header/Render.h
-D:/job/opengl/learnopengl/src/header/Render.h
-
 D:/job/opengl/learnopengl/src/cpp/ShaderProgram.cpp
 ../header/ShaderProgram.h
 D:/job/opengl/learnopengl/src/header/ShaderProgram.h
 
-D:/job/opengl/learnopengl/src/cpp/StaticShader.cpp
-../header/StaticShader.h
-D:/job/opengl/learnopengl/src/header/StaticShader.h
-
 D:/job/opengl/learnopengl/src/header/Display.h
+Enums.h
+D:/job/opengl/learnopengl/src/header/Enums.h
 glad/glad.h
 D:/job/opengl/learnopengl/src/header/glad/glad.h
 GLFW/glfw3.h
@@ -99,8 +77,12 @@ iostream
 -
 
 D:/job/opengl/learnopengl/src/header/DisplayManager.h
-../header/Display.h
+Display.h
 D:/job/opengl/learnopengl/src/header/Display.h
+Enums.h
+D:/job/opengl/learnopengl/src/header/Enums.h
+
+D:/job/opengl/learnopengl/src/header/Enums.h
 
 D:/job/opengl/learnopengl/src/header/Loader.h
 RawModel.h
@@ -147,6 +129,8 @@ D:/job/opengl/learnopengl/src/header/RawModel.h
 D:/job/opengl/learnopengl/src/header/Render.h
 ./header/StaticShader.h
 D:/job/opengl/learnopengl/src/header/StaticShader.h
+./header/Enums.h
+D:/job/opengl/learnopengl/src/header/Enums.h
 iostream
 -
 

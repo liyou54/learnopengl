@@ -12,7 +12,7 @@ void DisplayManager::CreateDisplay(){
     std::cout<<"GL_VERSION    :   "<<glGetString(GL_VERSION)<<"\n";
     std::cout<<"GL_RENDERER   :   "<<glGetString(GL_RENDERER)<<"\n";
 }
-void DisplayManager::UpdateDisplay(){
+EMDisplayState DisplayManager::UpdateDisplay(){
     mDisplay.Update();
 }
 void DisplayManager::CloseDisplay(){
