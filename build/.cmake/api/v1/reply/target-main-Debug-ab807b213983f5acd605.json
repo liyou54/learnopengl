@@ -72,11 +72,11 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "D:/job/opengl/include"
+					"path" : "D:/job/opengl/learnopengl/include"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "D:/job/opengl/src/header"
+					"path" : "D:/job/opengl/learnopengl/src/header"
 				}
 			],
 			"language" : "CXX",
@@ -108,7 +108,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LD:\\job\\opengl\\lib",
+				"fragment" : "-LD:\\job\\opengl\\learnopengl\\lib",
 				"role" : "libraryPath"
 			},
 			{

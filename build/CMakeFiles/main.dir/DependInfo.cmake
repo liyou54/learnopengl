@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/job/opengl/src/cpp/Display.cpp" "D:/job/opengl/build/CMakeFiles/main.dir/src/cpp/Display.cpp.obj"
-  "D:/job/opengl/src/cpp/DisplayManager.cpp" "D:/job/opengl/build/CMakeFiles/main.dir/src/cpp/DisplayManager.cpp.obj"
-  "D:/job/opengl/src/cpp/Loader.cpp" "D:/job/opengl/build/CMakeFiles/main.dir/src/cpp/Loader.cpp.obj"
-  "D:/job/opengl/src/cpp/RawModel.cpp" "D:/job/opengl/build/CMakeFiles/main.dir/src/cpp/RawModel.cpp.obj"
-  "D:/job/opengl/src/cpp/Render.cpp" "D:/job/opengl/build/CMakeFiles/main.dir/src/cpp/Render.cpp.obj"
-  "D:/job/opengl/src/cpp/ShaderProgram.cpp" "D:/job/opengl/build/CMakeFiles/main.dir/src/cpp/ShaderProgram.cpp.obj"
-  "D:/job/opengl/src/cpp/StaticShader.cpp" "D:/job/opengl/build/CMakeFiles/main.dir/src/cpp/StaticShader.cpp.obj"
-  "D:/job/opengl/src/main.cpp" "D:/job/opengl/build/CMakeFiles/main.dir/src/main.cpp.obj"
+  "D:/job/opengl/learnopengl/src/cpp/Display.cpp" "D:/job/opengl/learnopengl/build/CMakeFiles/main.dir/src/cpp/Display.cpp.obj"
+  "D:/job/opengl/learnopengl/src/cpp/DisplayManager.cpp" "D:/job/opengl/learnopengl/build/CMakeFiles/main.dir/src/cpp/DisplayManager.cpp.obj"
+  "D:/job/opengl/learnopengl/src/cpp/Loader.cpp" "D:/job/opengl/learnopengl/build/CMakeFiles/main.dir/src/cpp/Loader.cpp.obj"
+  "D:/job/opengl/learnopengl/src/cpp/RawModel.cpp" "D:/job/opengl/learnopengl/build/CMakeFiles/main.dir/src/cpp/RawModel.cpp.obj"
+  "D:/job/opengl/learnopengl/src/cpp/Render.cpp" "D:/job/opengl/learnopengl/build/CMakeFiles/main.dir/src/cpp/Render.cpp.obj"
+  "D:/job/opengl/learnopengl/src/cpp/ShaderProgram.cpp" "D:/job/opengl/learnopengl/build/CMakeFiles/main.dir/src/cpp/ShaderProgram.cpp.obj"
+  "D:/job/opengl/learnopengl/src/cpp/StaticShader.cpp" "D:/job/opengl/learnopengl/build/CMakeFiles/main.dir/src/cpp/StaticShader.cpp.obj"
+  "D:/job/opengl/learnopengl/src/main.cpp" "D:/job/opengl/learnopengl/build/CMakeFiles/main.dir/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

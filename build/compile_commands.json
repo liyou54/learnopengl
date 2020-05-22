@@ -1,42 +1,42 @@
 [
 {
-  "directory": "D:/job/opengl/build",
-  "command": "D:\\Program_Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   @CMakeFiles/main.dir/includes_CXX.rsp -g   -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c D:\\job\\opengl\\src\\main.cpp",
-  "file": "D:/job/opengl/src/main.cpp"
+  "directory": "D:/job/opengl/learnopengl/build",
+  "command": "D:\\Program_Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   @CMakeFiles/main.dir/includes_CXX.rsp -g   -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c D:\\job\\opengl\\learnopengl\\src\\main.cpp",
+  "file": "D:/job/opengl/learnopengl/src/main.cpp"
 },
 {
-  "directory": "D:/job/opengl/build",
-  "command": "D:\\Program_Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   @CMakeFiles/main.dir/includes_CXX.rsp -g   -o CMakeFiles\\main.dir\\src\\cpp\\Display.cpp.obj -c D:\\job\\opengl\\src\\cpp\\Display.cpp",
-  "file": "D:/job/opengl/src/cpp/Display.cpp"
+  "directory": "D:/job/opengl/learnopengl/build",
+  "command": "D:\\Program_Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   @CMakeFiles/main.dir/includes_CXX.rsp -g   -o CMakeFiles\\main.dir\\src\\cpp\\Display.cpp.obj -c D:\\job\\opengl\\learnopengl\\src\\cpp\\Display.cpp",
+  "file": "D:/job/opengl/learnopengl/src/cpp/Display.cpp"
 },
 {
-  "directory": "D:/job/opengl/build",
-  "command": "D:\\Program_Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   @CMakeFiles/main.dir/includes_CXX.rsp -g   -o CMakeFiles\\main.dir\\src\\cpp\\DisplayManager.cpp.obj -c D:\\job\\opengl\\src\\cpp\\DisplayManager.cpp",
-  "file": "D:/job/opengl/src/cpp/DisplayManager.cpp"
+  "directory": "D:/job/opengl/learnopengl/build",
+  "command": "D:\\Program_Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   @CMakeFiles/main.dir/includes_CXX.rsp -g   -o CMakeFiles\\main.dir\\src\\cpp\\DisplayManager.cpp.obj -c D:\\job\\opengl\\learnopengl\\src\\cpp\\DisplayManager.cpp",
+  "file": "D:/job/opengl/learnopengl/src/cpp/DisplayManager.cpp"
 },
 {
-  "directory": "D:/job/opengl/build",
-  "command": "D:\\Program_Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   @CMakeFiles/main.dir/includes_CXX.rsp -g   -o CMakeFiles\\main.dir\\src\\cpp\\Loader.cpp.obj -c D:\\job\\opengl\\src\\cpp\\Loader.cpp",
-  "file": "D:/job/opengl/src/cpp/Loader.cpp"
+  "directory": "D:/job/opengl/learnopengl/build",
+  "command": "D:\\Program_Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   @CMakeFiles/main.dir/includes_CXX.rsp -g   -o CMakeFiles\\main.dir\\src\\cpp\\Loader.cpp.obj -c D:\\job\\opengl\\learnopengl\\src\\cpp\\Loader.cpp",
+  "file": "D:/job/opengl/learnopengl/src/cpp/Loader.cpp"
 },
 {
-  "directory": "D:/job/opengl/build",
-  "command": "D:\\Program_Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   @CMakeFiles/main.dir/includes_CXX.rsp -g   -o CMakeFiles\\main.dir\\src\\cpp\\RawModel.cpp.obj -c D:\\job\\opengl\\src\\cpp\\RawModel.cpp",
-  "file": "D:/job/opengl/src/cpp/RawModel.cpp"
+  "directory": "D:/job/opengl/learnopengl/build",
+  "command": "D:\\Program_Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   @CMakeFiles/main.dir/includes_CXX.rsp -g   -o CMakeFiles\\main.dir\\src\\cpp\\RawModel.cpp.obj -c D:\\job\\opengl\\learnopengl\\src\\cpp\\RawModel.cpp",
+  "file": "D:/job/opengl/learnopengl/src/cpp/RawModel.cpp"
 },
 {
-  "directory": "D:/job/opengl/build",
-  "command": "D:\\Program_Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   @CMakeFiles/main.dir/includes_CXX.rsp -g   -o CMakeFiles\\main.dir\\src\\cpp\\Render.cpp.obj -c D:\\job\\opengl\\src\\cpp\\Render.cpp",
-  "file": "D:/job/opengl/src/cpp/Render.cpp"
+  "directory": "D:/job/opengl/learnopengl/build",
+  "command": "D:\\Program_Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   @CMakeFiles/main.dir/includes_CXX.rsp -g   -o CMakeFiles\\main.dir\\src\\cpp\\Render.cpp.obj -c D:\\job\\opengl\\learnopengl\\src\\cpp\\Render.cpp",
+  "file": "D:/job/opengl/learnopengl/src/cpp/Render.cpp"
 },
 {
-  "directory": "D:/job/opengl/build",
-  "command": "D:\\Program_Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   @CMakeFiles/main.dir/includes_CXX.rsp -g   -o CMakeFiles\\main.dir\\src\\cpp\\ShaderProgram.cpp.obj -c D:\\job\\opengl\\src\\cpp\\ShaderProgram.cpp",
-  "file": "D:/job/opengl/src/cpp/ShaderProgram.cpp"
+  "directory": "D:/job/opengl/learnopengl/build",
+  "command": "D:\\Program_Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   @CMakeFiles/main.dir/includes_CXX.rsp -g   -o CMakeFiles\\main.dir\\src\\cpp\\ShaderProgram.cpp.obj -c D:\\job\\opengl\\learnopengl\\src\\cpp\\ShaderProgram.cpp",
+  "file": "D:/job/opengl/learnopengl/src/cpp/ShaderProgram.cpp"
 },
 {
-  "directory": "D:/job/opengl/build",
-  "command": "D:\\Program_Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   @CMakeFiles/main.dir/includes_CXX.rsp -g   -o CMakeFiles\\main.dir\\src\\cpp\\StaticShader.cpp.obj -c D:\\job\\opengl\\src\\cpp\\StaticShader.cpp",
-  "file": "D:/job/opengl/src/cpp/StaticShader.cpp"
+  "directory": "D:/job/opengl/learnopengl/build",
+  "command": "D:\\Program_Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   @CMakeFiles/main.dir/includes_CXX.rsp -g   -o CMakeFiles\\main.dir\\src\\cpp\\StaticShader.cpp.obj -c D:\\job\\opengl\\learnopengl\\src\\cpp\\StaticShader.cpp",
+  "file": "D:/job/opengl/learnopengl/src/cpp/StaticShader.cpp"
 }
 ]
