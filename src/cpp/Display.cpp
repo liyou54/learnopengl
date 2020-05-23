@@ -32,6 +32,7 @@ void Display::Create(ContextAttribute attr){
     glfwInit();
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, attr.major);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, attr.minor);
+    
     if(attr.bProfileCore){
         glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
     }
@@ -49,7 +50,8 @@ void Display::Create(ContextAttribute attr){
         std::cout<<"Failed to load glad!\n";
         Destroy();
     }
-
+    glEnable(GL_CULL_FACE);
+    glCullFace(GL_FRONT);
     glfwSetFramebufferSizeCallback(mWindow,frameBufferSizeCallback);
 }
 
