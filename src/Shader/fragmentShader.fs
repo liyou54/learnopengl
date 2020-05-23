@@ -1,8 +1,13 @@
 #version 400 core
 
+
 in vec4 mOutColor;
-out vec4 mColor;
+
+out vec4 FragColor ;
+
+uniform float time;
+
 void main(){
-    mColor = mOutColor;
+    FragColor = mOutColor;
     
 }

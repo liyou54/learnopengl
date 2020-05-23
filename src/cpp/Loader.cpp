@@ -31,9 +31,9 @@ void Loader::StoreDataToAttriList (int idx,float positions[],int size){
 }
 
 void Loader::BindIndexBuffer (unsigned int indexBuffer[], int size){
-    unsigned int IBOID;
-    glGenBuffers(1, &IBOID);
-    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, IBOID);
+    unsigned int EBOID;
+    glGenBuffers(1, &EBOID);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBOID);
     glBufferData(GL_ELEMENT_ARRAY_BUFFER,size,indexBuffer,GL_STATIC_DRAW);
 }
 

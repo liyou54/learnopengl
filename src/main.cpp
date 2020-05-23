@@ -5,24 +5,30 @@
 #include "./header/Render.h"
 #include "./header/StaticShader.h"
 #include "./header/Enums.h"
+#include "./header/LoadTexture.h"
 #include <iostream>
 
 int main()
 {   
     float positions[]{
-         .5f,  .5f, .0f,
+         .0f,  .5f, .0f,
          .5f, -.5f, .0f,
         -.5f, -.5f, .0f,
         -.5f,  .5f, .0f
     };
     unsigned int indexData[]{
-        0,1,3,
-        1,2,3
+        0,1,2,
+        // 1,2,3
 
+    };
+    float texposition[]{
+        .0,.0,
+        1.,0.,
+        .5,1.
     };
 
     EMDisplayState mDisplayState;
-
+    LoadTexture mTexture;
     DisplayManager mDisplayMgr;
     mDisplayMgr.CreateDisplay();
 

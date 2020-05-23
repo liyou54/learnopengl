@@ -46,9 +46,11 @@ CMakeFiles/main.dir/src/main.cpp.obj
  ../include/GLFW/glfw3.h
  ../include/KHR/khrplatform.h
  ../include/glad/glad.h
+ ../include/stb-master/stb_image.h
  D:/job/opengl/learnopengl/src/header/Display.h
  D:/job/opengl/learnopengl/src/header/DisplayManager.h
  D:/job/opengl/learnopengl/src/header/Enums.h
+ D:/job/opengl/learnopengl/src/header/LoadTexture.h
  D:/job/opengl/learnopengl/src/header/Loader.h
  D:/job/opengl/learnopengl/src/header/RawModel.h
  D:/job/opengl/learnopengl/src/header/Render.h

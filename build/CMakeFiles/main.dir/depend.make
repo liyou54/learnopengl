@@ -45,9 +45,11 @@ CMakeFiles/main.dir/src/cpp/StaticShader.cpp.obj: ../src/header/StaticShader.h
 CMakeFiles/main.dir/src/main.cpp.obj: ../include/GLFW/glfw3.h
 CMakeFiles/main.dir/src/main.cpp.obj: ../include/KHR/khrplatform.h
 CMakeFiles/main.dir/src/main.cpp.obj: ../include/glad/glad.h
+CMakeFiles/main.dir/src/main.cpp.obj: ../include/stb-master/stb_image.h
 CMakeFiles/main.dir/src/main.cpp.obj: ../src/header/Display.h
 CMakeFiles/main.dir/src/main.cpp.obj: ../src/header/DisplayManager.h
 CMakeFiles/main.dir/src/main.cpp.obj: ../src/header/Enums.h
+CMakeFiles/main.dir/src/main.cpp.obj: ../src/header/LoadTexture.h
 CMakeFiles/main.dir/src/main.cpp.obj: ../src/header/Loader.h
 CMakeFiles/main.dir/src/main.cpp.obj: ../src/header/RawModel.h
 CMakeFiles/main.dir/src/main.cpp.obj: ../src/header/Render.h
